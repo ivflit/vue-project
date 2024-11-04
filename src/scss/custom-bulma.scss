@@ -1,0 +1,16 @@
+/* Define custom colors */
+$soft-blue-light: #dceefb;
+$soft-blue: #a2cffe;
+$soft-blue-dark: #276cda;
+$soft-blue-primary: #1f5b99;
+$soft-blue-background: #f0f8ff;
+
+/* Override Bulma's primary color with a soft blue */
+$primary: $soft-blue;
+$primary-invert: #ffffff; /* Ensures text contrast with primary color */
+
+/* Set a custom background color */
+$body-background-color: $soft-blue-background;
+
+/* Import the rest of Bulma */
+@import "bulma";
